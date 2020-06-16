@@ -4,15 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <div class="container">
+        <img id="gimg" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Official Google Logo">
         <div class="search-bar">
-            <input type="search">
-            <button> Google Seach</button>
-            <button>I'm Feeling Lucky</button>
+            <input id="search" type="search">
+                <div class="buttons">
+                    <button> Google Seach</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </div>
         </div>
     </main>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><button>#</button></li>
+            <li><button id="signin">Sign in</button></li>
+        </ul>    
+    </div>
+    <div class="footer">
+        <div class="right">
+        <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">How the Search Works</a></li>
+        </ul>
+        </div>
+        <div class="left">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
